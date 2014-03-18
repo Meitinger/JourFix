@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature
+  xmlns="http://schemas.microsoft.com/sharepoint/"
+  Id="72DFA56A-9D8B-40B0-9A63-31AC3136F04A"
+  Title="Jour Fix"
+  Description="Passt die Berechtigung von Aufgaben und Dokumenten an, sodass nur Benutzer_innen mit Entwurfsrechten und der_die zugewiesene Benutzer_in diese bearbeiten dürfen."
+  Scope="Web"
+>
+  <ElementManifests>
+    <ElementManifest Location="Element.xml"/>
+  </ElementManifests>
+</Feature>

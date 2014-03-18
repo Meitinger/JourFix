@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <Receivers ListTemplateId="115">
+    <Receiver>
+      <Name>JourFixDocumentAdded</Name>
+      <Type>ItemAdded</Type>
+      <SequenceNumber>1</SequenceNumber>
+      <Assembly>Aufbauwerk.JourFix.SharePoint, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d01fd35e75cf5391</Assembly>
+      <Class>Aufbauwerk.JourFix.SharePoint.DocumentLibrary</Class>
+    </Receiver>
+    <Receiver>
+      <Name>JourFixDocumentUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <SequenceNumber>1</SequenceNumber>
+      <Assembly>Aufbauwerk.JourFix.SharePoint, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d01fd35e75cf5391</Assembly>
+      <Class>Aufbauwerk.JourFix.SharePoint.DocumentLibrary</Class>
+    </Receiver>
+  </Receivers>
+  <Receivers ListTemplateId="107">
+    <Receiver>
+      <Name>JourFixTaskAdded</Name>
+      <Type>ItemAdded</Type>
+      <SequenceNumber>1</SequenceNumber>
+      <Assembly>Aufbauwerk.JourFix.SharePoint, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d01fd35e75cf5391</Assembly>
+      <Class>Aufbauwerk.JourFix.SharePoint.Tasks</Class>
+    </Receiver>
+    <Receiver>
+      <Name>JourFixTaskUpdated</Name>
+      <Type>ItemUpdated</Type>
+      <SequenceNumber>1</SequenceNumber>
+      <Assembly>Aufbauwerk.JourFix.SharePoint, Version=1.0.1.0, Culture=neutral, PublicKeyToken=d01fd35e75cf5391</Assembly>
+      <Class>Aufbauwerk.JourFix.SharePoint.Tasks</Class>
+    </Receiver>
+  </Receivers>
+</Elements>
