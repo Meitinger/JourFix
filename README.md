@@ -23,3 +23,7 @@ scenarios than weekly reports, the InfoPath form is - apart from being in
 German - heavily tailored to the company it was made for. Yet if you drop the
 idea and error management the only thing required is to setup your own settings
 list.
+
+It's *jour fixe*, not *jour fix*!
+---------------------------------
+I know ;)
