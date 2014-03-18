@@ -9,7 +9,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Aufbauwerk.JourFix.SharePoint</RootNamespace>
     <AssemblyName>Aufbauwerk.JourFix.SharePoint</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>SharePoint.snk</AssemblyOriginatorKeyFile>
