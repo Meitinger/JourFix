@@ -67,4 +67,7 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>signtool.exe sign "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
 </Project>
